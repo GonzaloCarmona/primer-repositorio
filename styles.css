@@ -1,0 +1,231 @@
+
+html{
+    font-size: 62,5%;
+}
+
+#logo {
+    float: left;
+}
+
+
+nav{
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+ul {
+    list-style: none;
+    margin-top: 1.7rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #EEF0F2;
+}
+
+.der {
+    margin-right: 20rem;
+}
+
+.iniciarSesion {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid;
+    border-color: #EEF0F2;
+    border-radius: 10px;
+}
+
+.suscribirme {
+    background-color: #DC8904;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+.h1 {
+    opacity: .8;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+body {
+    background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.main {
+    padding-top: 7rem;
+}
+
+.centro{
+    text-align: center;
+    color: #efd6ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.textoMedio {
+    font-size: 2.5rem;
+    margin: 1rem;
+    opacity: 0.9;
+}
+
+.subtitulo {
+    font-style: italic;
+    margin: 0,7 rem;
+    opacity: 0.7;
+}
+
+.suscribirme2 {
+    width: 130px;
+    height: 25px;
+    background-color: #DC8904;
+    border-radius: 10px;
+    padding-top: 3px;
+    position: relative;
+    left: 40rem;
+    margin-top: 2rem;
+}
+
+.seccion2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.titulo {
+    text-align: center;
+    color: #efd6ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+
+}
+
+p {
+    color: #EEF0F2;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+    margin-left: 1rem;
+    }
+
+.formulario {
+    text-align: center;
+    color: #EEF0F2;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+    margin-bottom: 5rem;
+}
+
+input{
+    position: fixed;
+    left: 50rem;
+    width: 200px;
+}
+
+label {
+    position: fixed;
+    left: 30rem;
+    margin: 10px;
+}
+
+.boton {
+    width: 100px;
+}
+.video1 {
+ opacity: 0.7;
+ margin-right: 1rem;
+}
+
+.textos {
+    display: flex;
+    width: 75%;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #EEF0F2;
+    text-align: center;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    opacity: 0.5;
+    font-size: 90%;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CDGV {
+    text-align: center;
+}
+
+.profesor {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.divProfesor {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+ 
+.quienesSomos {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.cursos {
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 8rem;
+}
+
+h3 {
+    text-align: center;
+    color: #efd6ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.registro, .material, .seguimiento {
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
