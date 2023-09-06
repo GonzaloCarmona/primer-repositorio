@@ -4,16 +4,8 @@
 }
 
 
-.logo {
-    width: 4%;
-    position: fixed;
-    right: 96%;
-    
-    
-    
-}
-.lineamenu { 
-    display: flex;
+
+.navbar { 
     height: 100px;
     background-color: rgba(70, 70, 70, 0.952);
     justify-content: center;
@@ -22,17 +14,22 @@
     width: 100%;
     height: 75px;
     z-index: 1;
+    text-align: center;
 }
 
 .bg-menu {
-    background-color: rgba(70, 70, 70, 0.747);
+    background-color: rgba(70, 70, 70, 0.863);
 }
+
 
 .nav-link {
     color: #fcf0f0;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
+    
 }
+
+
 
 
 .carousel {
@@ -68,7 +65,6 @@
     color: #fcf0f0;
     text-shadow: 0px 0px 4px black;
     position: relative;
-    top: 60px;
     background-image: url(../assets/portadaestirada.jpg);
     width: 100%;
     height: 65vh;
@@ -77,7 +73,7 @@
 
 .titulo h1 { 
     position: relative;
-    top: 40px;
+    top: 120px;
 }
 
 .titulo h6 {
@@ -90,11 +86,6 @@
 }
 
 
-.descripcion {
-    position: relative;
-    top: 110px;
-    background-color: silver
-}
 
 
 
@@ -325,28 +316,13 @@
 }
 
 /* Media Q*/
-
-@media only screen and ( max-width: 576px) {
-    body {
-        background-color: black;
+@media ( min-width: 300px ) and ( max-width: 576px) {
+    .titulo {
+        width: 505px;
+        height: 250px;
     }
-    .navbar-toggler {
-    background-color: wheat;
-    position: relative;
-    left: 450px;
-}
     
-    .titulo { 
-        width: 200%;
-    }
-    .carousel-inner {
-        width: 200%;
-    }
-    footer { 
-        width: 200%;
-    }
 }
-
 
 
 
