@@ -326,17 +326,24 @@
 
 /* Media Q*/
 
-@media only screen and ( max-width: 500px) {
+@media only screen and ( max-width: 576px) {
     body {
         background-color: black;
     }
     .navbar-toggler {
     background-color: wheat;
     position: relative;
-    left: 400px;
+    left: 450px;
 }
-    main {
-        width: 190%;
+    
+    .titulo { 
+        width: 200%;
+    }
+    .carousel-inner {
+        width: 200%;
+    }
+    footer { 
+        width: 200%;
     }
 }
 
