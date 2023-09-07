@@ -29,6 +29,14 @@
     
 }
 
+.navbar-toggler-icon {
+    background-size: 78%;
+}
+
+.navbar-toggler {
+    background-color: #dad0d0d2;
+}
+
 
 
 
@@ -316,13 +324,71 @@
 }
 
 /* Media Q*/
-@media ( min-width: 300px ) and ( max-width: 576px) {
+@media ( max-width: 576px) {
     .titulo {
-        width: 505px;
+        width: 580px;
         height: 250px;
     }
+
+    .carousel-caption {
+        
+        height: 200px;
+        position: absolute;
+        bottom: 80px;
+        
+    }
+
+    body {
+        background-color: antiquewhite;
+    }
     
+    .navbar-collapse {
+        background-color: rgba(70, 70, 70, 0.952);
+    }
 }
+
+@media ( max-width: 320px) {
+    body {
+        background-color: rgba(121, 28, 28, 0.699);
+    }
+    .titulo {
+        width: 320px;
+        height: 250px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+        
+    }
+    
+    .carousel-caption {
+        font-size: 10px;
+    }
+
+
+    .carousel-caption {
+        width: 202px;
+        height: 190px;
+        position: absolute;
+        top: -10px;
+        left: 1px;
+    }
+    
+    .carousel-control-prev {
+        bottom: 197px;
+        }
+    .carousel-control-next
+    {
+        bottom: 197px;
+        }
+    .carousel-indicators  {
+        bottom: 195px;
+    }
+
+
+}
+
+
 
 
 
