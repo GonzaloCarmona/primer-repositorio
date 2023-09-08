@@ -4,26 +4,32 @@
 }
 
 
+body{
+    background-color: #e2bf81;
+    width: 100%;
+}
 
-.navbar { 
+.navbar  { 
     height: 100px;
-    background-color: rgba(70, 70, 70, 0.952);
+    background-color: rgba(70, 70, 70, 0.863);
     justify-content: center;
 	align-items: center;
-    position: fixed;
     width: 100%;
-    height: 75px;
+    height: 65px;
     z-index: 1;
     text-align: center;
+    border:solid;
+    border-color: #c78006;
 }
 
 .bg-menu {
-    background-color: rgba(70, 70, 70, 0.863);
+    background-color: #be7b06;
 }
 
 
+
 .nav-link {
-    color: #fcf0f0;
+    color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 17px;
     
@@ -34,26 +40,53 @@
 }
 
 .navbar-toggler {
-    background-color: #dad0d0d2;
+    background-color: #c78006 ;
 }
 
+.titulo {
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+    text-align: center;
+    color: #fcf0f0;
+    text-shadow: 0px 0px 10px black;
+    background-image: url(../assets/portadaestirada.jpg);
+    
+    height: 75vh;
+    
 
-
-
-.carousel {
-    position: relative;
-    top: 100px;
 }
 .carousel-item {
-    height: 400px;
+    height: 500px;
 
 }
 
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.623);
+
+.santamonica {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b89c6d;
+    display: flex;
+    height: 200px;
+    padding-top: 30px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.santamonica h4 {
+    text-align: left;
 }
 
 
+.servicios {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #e2bf81;
+}
+
+.servicios p {
+    padding-top: 30px;
+}
 
 /*reservas*/
 .reservar { 
@@ -65,33 +98,11 @@
 }
 
 
-
-.titulo {
-    font-family: 'Staatliches', cursive;
-    font-size: 200%;
+.vivasierra { 
     text-align: center;
-    color: #fcf0f0;
-    text-shadow: 0px 0px 4px black;
-    position: relative;
-    background-image: url(../assets/portadaestirada.jpg);
-    width: 100%;
-    height: 65vh;
-    
+    padding-top: 30px;
 }
 
-.titulo h1 { 
-    position: relative;
-    top: 120px;
-}
-
-.titulo h6 {
-    position: relative;
-    top: 285px;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: none;
-    text-align: center;
-}
 
 
 
@@ -105,8 +116,6 @@
     text-align: center;
     color: #fcf0f0;
     text-shadow: 0px 0px 4px black;
-    position: relative;
-    top: 60px;
     background-image: url(../assets/Portada.jpg);
     width: 100%;
     height: 65vh;
@@ -117,8 +126,7 @@
     top: 40px;
 }
 .nuestrascabañas h2{
-    position: relative;
-    top: 350px;
+
     font-size: 30px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -194,8 +202,6 @@
     text-align: center;
     color: #fcf0f0;
     text-shadow: 0px 0px 4px black;
-    position: relative;
-    top: 60px;
     background-image: url(../assets/visita.jpg);
     width: 100%;
     height: 65vh;
@@ -230,8 +236,6 @@
     text-align: center;
     color: #fcf0f0;
     text-shadow: 0px 0px 4px black;
-    position: relative;
-    top: 60px;
     background-image: url(../assets/reservar.jpg);
     width: 100%;
     height: 65vh;
@@ -264,8 +268,6 @@
         text-align: center;
         color: #fcf0f0;
         text-shadow: 0px 0px 4px black;
-        position: relative;
-        top: 60px;
         background-image: url(../assets/images.jpg);
         width: 100%;
         height: 65vh;
@@ -287,20 +289,16 @@
 /* Footer */
 
 .footer {
-    position: relative;
-    top: 150px;
-    background-color: rgba(70, 70, 70, 0.952);
+    background-color: #be7b06;
     height: 150px;
     text-align: center;
     color: #fcf0f0;
-    padding-bottom: 70px;
 }
 
 .footer img {
     width: 4%;
     position: relative;
-    top: 0px;
-    left: 557px;
+    left: 550px;
     
     
 }
@@ -324,68 +322,43 @@
 }
 
 /* Media Q*/
-@media ( max-width: 576px) {
-    .titulo {
-        width: 580px;
-        height: 250px;
-    }
 
-    .carousel-caption {
-        
-        height: 200px;
-        position: absolute;
-        bottom: 80px;
-        
+@media screen and ( max-width: 720px){
+    .santamonica {
+        display: flex;
+        flex-direction: column;
     }
+   
 
-    body {
+
+
+}
+
+
+@media screen and ( max-width: 576px) {
+    
+     body {
         background-color: antiquewhite;
     }
+    .santamonica {
+        display: flex;
+        flex-direction: column;
+        background-color: #b89c6d;
+        margin-top: -180px;
+        height: 298px;
+    }
+    .santamonica p {
+        font-size: 15px;
+    }
+   
     
     .navbar-collapse {
-        background-color: rgba(70, 70, 70, 0.952);
+        background-color: #c78006a1;
     }
 }
 
-@media ( max-width: 320px) {
-    body {
-        background-color: rgba(121, 28, 28, 0.699);
-    }
-    .titulo {
-        width: 320px;
-        height: 250px;
-    }
-
-    .carousel-caption h5 {
-        font-size: 17px;
-        
-    }
+@media screen and ( max-width: 320px) {
     
-    .carousel-caption {
-        font-size: 10px;
-    }
-
-
-    .carousel-caption {
-        width: 202px;
-        height: 190px;
-        position: absolute;
-        top: -10px;
-        left: 1px;
-    }
-    
-    .carousel-control-prev {
-        bottom: 197px;
-        }
-    .carousel-control-next
-    {
-        bottom: 197px;
-        }
-    .carousel-indicators  {
-        bottom: 195px;
-    }
-
-
 }
 
 
