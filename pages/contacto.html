@@ -65,15 +65,24 @@
     <section class="contactanos">
         <h1>CONTACTANOS</h1>
     </section>
-    <section class="contacto">
-    <form action="form.php" method="post" class="contactoform">
-       <input type="text" placeholder="Nombre">
-       <input type="text" placeholder="Apellido">
-       <input type="text" placeholder="E-Mail">
-       <input type="message" placeholder="Mensaje">
-       <input type="submit" placeholder="Enviar">
-    </form>
-</section>
+    <form class="formcontacto">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Tu E-Mail</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Escribinos tu consulta</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+     <div class="d-grid gap-2 col-4 mx-auto">
+    <button class="btn btn-primary" type="button">Enviar</button>
+  </div>
+  </form>
+ 
 </main>
 
 <footer class="footer">

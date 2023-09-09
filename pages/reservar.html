@@ -61,26 +61,41 @@
     <section class="reservar">
         <h1>RESERVAR</h1>
       </section>
-    <section class="form">
- <div class="acomodoform"> 
-    <form action="form.php" method="post" class="formreserva">
-    <select name="Tipo de cabaña" id="" >
-        <option value="">Cabaña Valle</option>
-        <option value="">Cabaña Sol</option>
-    </select>
-    <select name="" id="">
-        <option value="">Fecha de ingreso</option>
-    </select>
-    <select name="" id="">
-        <option value="">Fecha de salida</option>
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Apellido">
-        <input type="text" name="E-mail" id="E-mail" placeholder="Ingresa tu E-Mail">
-        <input type="submit" value="Reservar">
-    </select>
-</div>
- </form>
-</section>
+    
+      <form class="formcontacto">
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">Nombre</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">Apellido</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Apellido">
+        </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">E-Mail</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="E-Mail">
+        </div>
+        <div class="mb-3">
+          <label for="disabledSelect" class="form-label">Cabaña</label>
+          <select id="disabledSelect" class="form-select">
+            <option>Cabaña Sol</option>
+            <option>Cabaña Vivasierra</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="disabledSelect" class="form-label">Fecha de Ingreso</label>
+          <select id="disabledSelect" class="form-select">
+            <option>Calendario</option>
+            
+          <div class="mb-3">
+          <label for="disabledSelect" class="form-label">Fecha de Egreso</label>
+          <select id="disabledSelect" class="form-select">
+            <option>Calendario</option>
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
 </main>
 <footer class="footer">
     <span>Seguinos en nuestras redes:</span> 
