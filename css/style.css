@@ -47,6 +47,7 @@ body{
 .navbar-collapse {
         background-color: #c78006f6;
     }
+
 .titulo {
     font-family: 'Staatliches', cursive;
     font-size: 200%;
@@ -61,11 +62,6 @@ body{
 .vivasierra { 
     text-align: center;
     padding-top: 30px;
-}
-
-.carousel-item {
-    height: 500px;
-
 }
 
 
@@ -126,7 +122,7 @@ body{
 }
 
 .carousel-inner {
-    height: 400px;
+   height: 400px;
    padding-top: 40px;
 }
 
@@ -146,7 +142,8 @@ body{
     font-weight: 1000px;
     font-size: large;
 }
-/* Ubicación */
+
+/* UBICACION */
 
 .nuestraubicacion {
     font-family: 'Staatliches', cursive;
@@ -178,7 +175,7 @@ body{
     padding: 20px;
 }
 
-/* Contacto */
+/* CONTACTO */
 
 .contactanos {
     font-family: 'Staatliches', cursive;
@@ -212,7 +209,7 @@ body{
     
 }
 
-/* Reservar */
+/* RESERVAR */
 
 .reservar {
         font-family: 'Staatliches', cursive;
@@ -232,7 +229,7 @@ body{
 }
 
 
-/* Footer */
+/* FOOTER */
 
 .footer {
     background-color: #be7b06;
@@ -262,7 +259,7 @@ body{
      text-decoration: none;
 }
 
-/* Media Q*/
+/* MEDIA Q*/
 
 /* INDEX */
 @media screen and ( max-width: 1024px) {
@@ -336,7 +333,7 @@ body{
       
 }
 
-/* CABAÑAS */
+/* CABAÑAS MEDIA Q */
 
 
 @media screen and ( max-width: 800px) {
