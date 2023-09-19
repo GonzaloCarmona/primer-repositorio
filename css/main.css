@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  background-color: #e2bf81;
+  max-width: 100%;
+}
+
 .titulo {
   font-family: "Staatliches", cursive;
   font-size: 200%;
@@ -15,33 +20,6 @@
   padding-top: 30px;
 }
 
-.navbarnavbar {
-  height: 100px;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 65px;
-  z-index: 1;
-  text-align: center;
-}
-.navbar-toggler-icon {
-  background-size: 78%;
-}
-.navbar-toggler {
-  background-color: #c78006;
-}
-.navbar-collapse {
-  background-color: rgba(199, 128, 6, 0.9647058824);
-}
-.navbar .bg-menu {
-  background-color: #be7b06;
-}
-.navbar .nav-link {
-  color: #fcf0f0;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 17px;
-}
-
 .santamonica {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
@@ -49,6 +27,7 @@
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  background-color: #b89c6d;
 }
 .santamonica h4 {
   text-align: left;
@@ -174,6 +153,11 @@
   padding: 15px;
 }
 
+body {
+  background-color: #e2bf81;
+  max-width: 100%;
+}
+
 .nuestrascabañas {
   font-family: "Staatliches", cursive;
   font-size: 200%;
@@ -234,6 +218,34 @@
   color: #fcf0f0;
   text-align: center;
   text-decoration: none;
+}
+
+.navbar {
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  z-index: 1;
+  text-align: center;
+  background-color: #c78006;
+}
+.navbar-toggler-icon {
+  background-size: 78%;
+}
+.navbar-toggler {
+  background-color: #c78006;
+}
+.navbar-collapse {
+  background-color: rgba(199, 128, 6, 0.9647058824);
+}
+.navbar .bg-menu {
+  background-color: #be7b06;
+}
+.navbar .nav-link {
+  color: #fcf0f0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=main.css.map */

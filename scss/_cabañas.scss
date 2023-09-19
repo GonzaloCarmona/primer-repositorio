@@ -1,3 +1,7 @@
+body{
+    background-color: #e2bf81;
+    max-width: 100%;
+}
 .nuestrascabañas {
     @include estilo-titulo;
     background-image: url(../assets/Portada.jpg);

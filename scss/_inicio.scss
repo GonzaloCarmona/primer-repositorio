@@ -1,5 +1,8 @@
 
-
+body{
+    background-color: #e2bf81;
+    max-width: 100%;
+}
 .titulo {
     
         @include estilo-titulo;
@@ -12,35 +15,7 @@
       
 }
 
-.navbar {
-    &navbar {
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 65px;
-        z-index: 1;
-        text-align: center;
-    }
-    
-    &-toggler-icon  {
-        background-size: 78%;
-    }
-    &-toggler {
-        background-color: #c78006 ;
-    }
-    &-collapse {
-        background-color: #c78006f6;
-    }
-    .bg-menu {
-       background-color:$fondonav; 
-    }
-    .nav-link {
-        color: $colortexto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 17px;
-    }
-}
+
 .santamonica {
     font-family: $fuentetextos;
     display: flex;
@@ -48,7 +23,7 @@
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
-
+    background-color: #b89c6d;
     & h4 {
         text-align: left;
     }
