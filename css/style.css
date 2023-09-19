@@ -147,34 +147,33 @@ body{
 /* UBICACION */
 
 .nuestraubicacion {
-    font-family: 'Staatliches', cursive;
+    font-family: "Staatliches", cursive;
     font-size: 200%;
     text-align: center;
     color: #fcf0f0;
-    text-shadow: 0px 0px 4px black;
-    background-image: url(../assets/visita.jpg);
-    width: 100%;
+    text-shadow: 0px 0px 10px black;
+    background-repeat: none;
     height: 65vh;
-}
-.nuestraubicacion h1 {
+    background-image: url(../assets/visita.jpg);
+    background-repeat: none;
+  }
+  .nuestraubicacion h1 {
     text-align: center;
     padding-top: 30px;
-}
-
-.mapa {
+  }
+  .nuestraubicacion-lugares {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    padding: 40px;
+  }
+  .nuestraubicacion-mapa {
     text-align: center;
     padding: 50px;
     background-image: url(../assets/ubicacion.jpg);
-}
-
-.lugaresavisitar {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    background-color: rgba(3, 3, 3, 0.8); 
-    color: rgb(189, 184, 184);
-    color: rgb(189, 184, 184);
-    padding: 20px;
-}
+    background-repeat: none;
+  }
+  
 
 /* CONTACTO */
 
