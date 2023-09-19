@@ -1,0 +1,23 @@
+.nuestrascabañas {
+    @include estilo-titulo;
+    background-image: url(../assets/Portada.jpg);
+    background-repeat: none;
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+}
+.carousel-inner {
+    height: 400px;
+    padding-top: 40px;
+ }
+ .cabaña1descripcion {
+    font-family: $fuentetextos;
+    text-align: center;
+    padding: 20px;
+}
+
+.boton {
+    @include boton;
+}

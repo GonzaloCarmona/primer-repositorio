@@ -1,0 +1,51 @@
+@mixin estilo-titulo {
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+    text-align: center;
+    color: #fcf0f0;
+    text-shadow: 0px 0px 10px black;
+    background-repeat: none;
+    height: 65vh;
+}
+
+@mixin formularios {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    width: 50%;
+    padding: 30px;
+    background-color: #993608a9;
+    border-radius: 25px; 
+}
+
+@mixin boton {
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.568);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    text-decoration: none;
+    font-weight: 1000px;
+    font-size: large;
+}
+
+@mixin footer {
+    background-color: #be7b06;
+    height: 150px;
+    text-align: center;
+    color: #fcf0f0;
+}
+
+@mixin enviar {
+    background-color: #000000;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    margin-top: 15px;
+    padding: 15px;
+}

@@ -1,0 +1,22 @@
+.contactanos {
+    @include estilo-titulo;
+    background-image: url(../assets/reservar.jpg);
+    background-repeat: none;
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+}
+    
+}
+
+.formcontacto {
+    @include formularios;
+}
+
+.mb-3 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    @include enviar;
+}
