@@ -25,3 +25,10 @@ body{
 .boton {
     @include boton;
 }
+
+.boton:hover {
+    background-color: $fondonav;
+        color: rgb(43, 42, 42);
+        border-radius: 10px;
+        font-size: 19px;
+}

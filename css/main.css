@@ -198,6 +198,13 @@ body {
   font-size: large;
 }
 
+.boton:hover {
+  background-color: #be7b06;
+  color: rgb(43, 42, 42);
+  border-radius: 10px;
+  font-size: 19px;
+}
+
 .footer {
   background-color: #be7b06;
   height: 150px;
@@ -228,16 +235,16 @@ body {
   height: 65px;
   z-index: 1;
   text-align: center;
-  background-color: #c78006;
+  background-color: #be7b06;
 }
 .navbar-toggler-icon {
   background-size: 78%;
 }
 .navbar-toggler {
-  background-color: #c78006;
+  background-color: #be7b06;
 }
 .navbar-collapse {
-  background-color: rgba(199, 128, 6, 0.9647058824);
+  background-color: #be7b06;
 }
 .navbar .bg-menu {
   background-color: #be7b06;
@@ -246,6 +253,12 @@ body {
   color: #fcf0f0;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
+}
+.navbar .nav-link:hover {
+  background-color: rgba(250, 235, 215, 0.616);
+  color: rgb(51, 50, 50);
+  border-radius: 10px;
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=main.css.map */
