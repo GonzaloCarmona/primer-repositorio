@@ -42,6 +42,63 @@ body {
   padding-top: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+  .titulo {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .titulo {
+    height: 350px;
+  }
+  .santamonica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -1px;
+    height: 246px;
+  }
+  .footer img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    background-color: antiquewhite;
+  }
+  .titulo {
+    height: 327px;
+  }
+  .santamonica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -39px;
+    height: 298px;
+  }
+  .santamonica p {
+    font-size: 15px;
+  }
+  .servicios img {
+    width: 100%;
+    padding-top: 0%;
+  }
+  .footer img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .santamonica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -340px;
+    height: 437px;
+  }
+  .footer img {
+    width: 15%;
+  }
+}
 .reservar {
   font-family: "Staatliches", cursive;
   font-size: 200%;
@@ -111,6 +168,23 @@ body {
   background-repeat: none;
 }
 
+@media screen and (max-width: 576px) {
+  iframe {
+    width: 100%;
+  }
+  .nuestraubicacion {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nuestraubicacion {
+    height: 500px;
+  }
+  iframe {
+    width: 100%;
+    height: 70%;
+  }
+}
 .contactanos {
   font-family: "Staatliches", cursive;
   font-size: 200%;
@@ -153,6 +227,26 @@ body {
   padding: 15px;
 }
 
+@media screen and (max-width: 800px) {
+  .contactanos {
+    height: 300px;
+  }
+  .formcontacto {
+    width: 75%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .formcontacto {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .reservar {
+    height: 300px;
+  }
+}
 body {
   background-color: #e2bf81;
   max-width: 100%;
@@ -205,6 +299,63 @@ body {
   font-size: 19px;
 }
 
+@media screen and (max-width: 1024px) {
+  .titulo {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .titulo {
+    height: 350px;
+  }
+  .santamonica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -1px;
+    height: 246px;
+  }
+  .footer img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    background-color: antiquewhite;
+  }
+  .titulo {
+    height: 327px;
+  }
+  .santamonica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -39px;
+    height: 298px;
+  }
+  .santamonica p {
+    font-size: 15px;
+  }
+  .servicios img {
+    width: 100%;
+    padding-top: 0%;
+  }
+  .footer img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .santamonica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -340px;
+    height: 437px;
+  }
+  .footer img {
+    width: 15%;
+  }
+}
 .footer {
   background-color: #be7b06;
   height: 150px;
@@ -217,14 +368,14 @@ body {
   margin-top: -24px;
 }
 
-.redes {
-  color: #fcf0f0;
-  list-style: none;
-}
 .redes li a {
   color: #fcf0f0;
   text-align: center;
   text-decoration: none;
+}
+
+.bi {
+  color: #fcf0f0;
 }
 
 .navbar {

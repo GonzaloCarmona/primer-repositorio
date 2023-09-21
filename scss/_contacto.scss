@@ -21,3 +21,28 @@
 .btn {
     @include enviar;
 }
+
+@media screen and ( max-width: 800px) {
+    .contactanos {
+        height: 300px;
+    }
+    .formcontacto {
+        width: 75%;
+        margin-left: 12%;
+    
+    }
+}
+
+@media screen and ( max-width: 576px) {
+    .formcontacto {
+        width: 80%;
+        margin-left: 10%;
+    
+    }
+}
+
+@media screen and ( max-width: 576px) {
+    .reservar {
+        height: 300px;
+    }
+}
