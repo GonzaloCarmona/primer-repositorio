@@ -1,0 +1,23 @@
+.footer {
+    @include footer;
+    img {
+    width: 4%;
+    display: flex;
+    margin-top: -24px;
+    }
+} 
+
+.redes {
+    li a {
+        color: #fcf0f0;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+}
+
+.bi {
+    color: #fcf0f0;
+    
+}
+

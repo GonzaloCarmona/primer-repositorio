@@ -1,0 +1,112 @@
+
+body{
+    background-color: #e2bf81;
+    max-width: 100%;
+}
+.titulo {
+    
+        @include estilo-titulo;
+        background-image: url(../assets/portadaestirada.jpg);
+        background-repeat: none;
+        &-vivasierra { 
+            text-align: center;
+            padding-top: 30px;
+        }
+      
+}
+
+
+.santamonica {
+    font-family: $fuentetextos;
+    display: flex;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #b89c6d;
+    & h4 {
+        text-align: left;
+    }
+}
+
+.servicios {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #e2bf81;
+    p{ 
+        padding-top: 30px;
+    }
+}
+
+@media screen and ( max-width: 1024px) {
+    .titulo {
+        height: 400px;
+    }
+}
+
+@media screen and ( max-width: 800px) {
+    .titulo {
+        height: 350px;
+    }
+
+    .santamonica {
+        display: flex;
+        flex-direction: column;
+        background-color: #b89c6d;
+        margin-top: -1px;
+        height: 246px;
+    }
+
+    .footer img {
+        width: 10%;
+    }
+}
+
+@media screen and ( max-width: 576px) {
+    
+     body {
+        background-color: antiquewhite;
+    }
+
+    .titulo {
+        height: 327px;
+    
+    }
+    .santamonica {
+        display: flex;
+        flex-direction: column;
+        background-color: #b89c6d;
+        margin-top: -39px;
+        height: 298px;
+    }
+    .santamonica p {
+        font-size: 15px;
+    }
+   
+    
+
+    .servicios img {
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .footer img {
+        width: 10%;
+      }
+}
+
+@media screen and ( max-width: 320px) {
+    .santamonica {
+        display: flex;
+        flex-direction: column;
+        background-color: #b89c6d;
+        margin-top: -340px;
+        height: 437px;
+      }
+      .footer img {
+        width: 15%;
+      }
+      
+}
+
+

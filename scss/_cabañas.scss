@@ -1,0 +1,105 @@
+body{
+    background-color: #e2bf81;
+    max-width: 100%;
+}
+.nuestrascabañas {
+    @include estilo-titulo;
+    background-image: url(../assets/Portada.jpg);
+    background-repeat: none;
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+}
+.carousel-inner {
+    height: 400px;
+    padding-top: 40px;
+ }
+ .cabaña1descripcion {
+    font-family: $fuentetextos;
+    text-align: center;
+    padding: 20px;
+}
+
+.boton {
+    @include boton;
+}
+
+.boton:hover {
+    background-color: $fondonav;
+        color: rgb(43, 42, 42);
+        border-radius: 10px;
+        font-size: 19px;
+}
+
+@media screen and ( max-width: 1024px) {
+    .titulo {
+        height: 400px;
+    }
+}
+
+@media screen and ( max-width: 800px) {
+    .titulo {
+        height: 350px;
+    }
+
+    .santamonica {
+        display: flex;
+        flex-direction: column;
+        background-color: #b89c6d;
+        margin-top: -1px;
+        height: 246px;
+    }
+
+    .footer img {
+        width: 10%;
+    }
+}
+
+@media screen and ( max-width: 576px) {
+    
+     body {
+        background-color: antiquewhite;
+    }
+
+    .titulo {
+        height: 327px;
+    
+    }
+    .santamonica {
+        display: flex;
+        flex-direction: column;
+        background-color: #b89c6d;
+        margin-top: -39px;
+        height: 298px;
+    }
+    .santamonica p {
+        font-size: 15px;
+    }
+   
+    
+
+    .servicios img {
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .footer img {
+        width: 10%;
+      }
+}
+
+@media screen and ( max-width: 320px) {
+    .santamonica {
+        display: flex;
+        flex-direction: column;
+        background-color: #b89c6d;
+        margin-top: -340px;
+        height: 437px;
+      }
+      .footer img {
+        width: 15%;
+      }
+      
+}

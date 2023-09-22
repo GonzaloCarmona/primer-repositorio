@@ -1,0 +1,40 @@
+.nuestraubicacion {
+    @include estilo-titulo; 
+    background-image: url(../assets/visita.jpg);
+    background-repeat: none;
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    &-lugares {
+        font-family: $fuentetextos;     
+        font-weight: bold;
+        color: #000000;
+        padding: 40px;
+    }
+    &-mapa {
+        text-align: center;
+        padding: 50px;
+        background-image: url(../assets/ubicacion.jpg);
+        background-repeat: none;
+    }
+}
+
+@media screen and ( max-width: 576px) {
+    iframe  {
+       width: 100%;
+    }
+    .nuestraubicacion {
+        height: 300px;
+    }
+}
+
+@media screen and ( max-width: 320px) {
+    .nuestraubicacion {
+        height: 500px;
+    }
+    iframe  {
+        width: 100%;
+        height: 70%;
+     }
+}
