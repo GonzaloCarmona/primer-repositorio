@@ -1,4 +1,4 @@
-.nuestraubicacion {
+.nuestra-ubicacion {
     @include estilo-titulo; 
     background-image: url(../assets/visita.jpg);
     background-repeat: none;
@@ -24,13 +24,13 @@
     iframe  {
        width: 100%;
     }
-    .nuestraubicacion {
+    .nuestra-ubicacion {
         height: 300px;
     }
 }
 
 @media screen and ( max-width: 320px) {
-    .nuestraubicacion {
+    .nuestra-ubicacion {
         height: 500px;
     }
     iframe  {

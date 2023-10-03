@@ -16,9 +16,8 @@ body{
 }
 
 
-.santamonica {
+.santa-monica {
     font-family: $fuentetextos;
-    display: flex;
     height: 200px;
     padding-top: 30px;
     padding-left: 10px;
@@ -35,6 +34,7 @@ body{
     background-color: #e2bf81;
     p{ 
         padding-top: 30px;
+        font-weight: bolder;
     }
 }
 
@@ -49,7 +49,7 @@ body{
         height: 350px;
     }
 
-    .santamonica {
+    .santa-monica {
         display: flex;
         flex-direction: column;
         background-color: #b89c6d;
@@ -72,14 +72,14 @@ body{
         height: 327px;
     
     }
-    .santamonica {
+    .santa-monica {
         display: flex;
         flex-direction: column;
         background-color: #b89c6d;
         margin-top: -39px;
         height: 298px;
     }
-    .santamonica p {
+    .santa-monica p {
         font-size: 15px;
     }
    
@@ -96,7 +96,7 @@ body{
 }
 
 @media screen and ( max-width: 320px) {
-    .santamonica {
+    .santa-monica {
         display: flex;
         flex-direction: column;
         background-color: #b89c6d;

@@ -20,16 +20,15 @@ body {
   padding-top: 30px;
 }
 
-.santamonica {
+.santa-monica {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  display: flex;
   height: 200px;
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: #b89c6d;
 }
-.santamonica h4 {
+.santa-monica h4 {
   text-align: left;
 }
 
@@ -40,6 +39,7 @@ body {
 }
 .servicios p {
   padding-top: 30px;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 1024px) {
@@ -51,7 +51,7 @@ body {
   .titulo {
     height: 350px;
   }
-  .santamonica {
+  .santa-monica {
     display: flex;
     flex-direction: column;
     background-color: #b89c6d;
@@ -69,14 +69,14 @@ body {
   .titulo {
     height: 327px;
   }
-  .santamonica {
+  .santa-monica {
     display: flex;
     flex-direction: column;
     background-color: #b89c6d;
     margin-top: -39px;
     height: 298px;
   }
-  .santamonica p {
+  .santa-monica p {
     font-size: 15px;
   }
   .servicios img {
@@ -88,7 +88,7 @@ body {
   }
 }
 @media screen and (max-width: 320px) {
-  .santamonica {
+  .santa-monica {
     display: flex;
     flex-direction: column;
     background-color: #b89c6d;
@@ -140,7 +140,11 @@ body {
   padding: 15px;
 }
 
-.nuestraubicacion {
+.btn:hover {
+  background-color: #6d4a4a;
+}
+
+.nuestra-ubicacion {
   font-family: "Staatliches", cursive;
   font-size: 200%;
   text-align: center;
@@ -151,17 +155,17 @@ body {
   background-image: url(../assets/visita.jpg);
   background-repeat: none;
 }
-.nuestraubicacion h1 {
+.nuestra-ubicacion h1 {
   text-align: center;
   padding-top: 30px;
 }
-.nuestraubicacion-lugares {
+.nuestra-ubicacion-lugares {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
   color: #000000;
   padding: 40px;
 }
-.nuestraubicacion-mapa {
+.nuestra-ubicacion-mapa {
   text-align: center;
   padding: 50px;
   background-image: url(../assets/ubicacion.jpg);
@@ -172,12 +176,12 @@ body {
   iframe {
     width: 100%;
   }
-  .nuestraubicacion {
+  .nuestra-ubicacion {
     height: 300px;
   }
 }
 @media screen and (max-width: 320px) {
-  .nuestraubicacion {
+  .nuestra-ubicacion {
     height: 500px;
   }
   iframe {
@@ -201,7 +205,7 @@ body {
   padding-top: 30px;
 }
 
-.formcontacto {
+.form-contacto {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #ffffff;
   text-align: center;
@@ -252,7 +256,7 @@ body {
   max-width: 100%;
 }
 
-.nuestrascabañas {
+.nuestras-cabañas {
   font-family: "Staatliches", cursive;
   font-size: 200%;
   text-align: center;
@@ -263,32 +267,32 @@ body {
   background-image: url(../assets/Portada.jpg);
   background-repeat: none;
 }
-.nuestrascabañas h1 {
+.nuestras-cabañas h1 {
   text-align: center;
   padding-top: 30px;
 }
 
 .carousel-inner {
-  height: 400px;
+  height: 600px;
   padding-top: 40px;
 }
 
-.cabaña1descripcion {
+.cabaña-descripcion {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 20px;
 }
 
 .boton {
-  display: block;
-  text-align: center;
   background-color: rgba(0, 0, 255, 0.568);
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   padding: 15px;
-  margin: 30px;
+  margin: 15px;
   text-decoration: none;
-  font-weight: 1000px;
   font-size: large;
 }
 
@@ -308,7 +312,7 @@ body {
   .titulo {
     height: 350px;
   }
-  .santamonica {
+  .santa-monica {
     display: flex;
     flex-direction: column;
     background-color: #b89c6d;

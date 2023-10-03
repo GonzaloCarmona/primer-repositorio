@@ -2,7 +2,7 @@ body{
     background-color: #e2bf81;
     max-width: 100%;
 }
-.nuestrascabañas {
+.nuestras-cabañas {
     @include estilo-titulo;
     background-image: url(../assets/Portada.jpg);
     background-repeat: none;
@@ -13,10 +13,10 @@ body{
     
 }
 .carousel-inner {
-    height: 400px;
+    height: 600px;
     padding-top: 40px;
  }
- .cabaña1descripcion {
+ .cabaña-descripcion {
     font-family: $fuentetextos;
     text-align: center;
     padding: 20px;
@@ -24,7 +24,9 @@ body{
 
 .boton {
     @include boton;
-}
+
+        }
+
 
 .boton:hover {
     background-color: $fondonav;
@@ -44,7 +46,7 @@ body{
         height: 350px;
     }
 
-    .santamonica {
+    .santa-monica {
         display: flex;
         flex-direction: column;
         background-color: #b89c6d;
