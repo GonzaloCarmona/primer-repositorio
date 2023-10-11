@@ -1,4 +1,116 @@
 @charset "UTF-8";
+@media screen and (max-width: 1024px) {
+  .titulo {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .titulo {
+    height: 350px;
+  }
+  .santa-monica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -111px;
+    height: 246px;
+  }
+  .footer img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    background-color: antiquewhite;
+  }
+  .titulo {
+    height: 327px;
+  }
+  .santa-monica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -239px;
+    height: 298px;
+  }
+  .santa-monica p {
+    font-size: 15px;
+  }
+  .servicios img {
+    width: 100%;
+    padding-top: 0%;
+  }
+  .footer img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .santa-monica {
+    display: flex;
+    flex-direction: column;
+    background-color: #b89c6d;
+    margin-top: -381px;
+  }
+  .servicios {
+    margin-top: 90px;
+  }
+  .footer img {
+    width: 15%;
+  }
+}
+/*cabañas*/
+@media screen and (max-width: 800px) {
+  .cabaña-descripcion {
+    margin-top: -113px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cabaña-descripcion {
+    margin-top: -210px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nuestras-cabañas {
+    height: 50px;
+  }
+  .cabaña-descripcion {
+    margin-top: -375px;
+  }
+}
+/*Ubicación*/
+@media screen and (max-width: 576px) {
+  iframe {
+    width: 100%;
+  }
+  .nuestra-ubicacion {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nuestra-ubicacion {
+    height: 500px;
+  }
+  iframe {
+    width: 100%;
+    height: 70%;
+  }
+}
+/*Contacto*/
+@media screen and (max-width: 800px) {
+  .contactanos {
+    height: 300px;
+  }
+  .form-contacto {
+    width: 75%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form-contacto {
+    width: 100%;
+    margin-left: 10%;
+  }
+}
 body {
   background-color: #e2bf81;
   max-width: 100%;
@@ -42,63 +154,6 @@ body {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 1024px) {
-  .titulo {
-    height: 400px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .titulo {
-    height: 350px;
-  }
-  .santa-monica {
-    display: flex;
-    flex-direction: column;
-    background-color: #b89c6d;
-    margin-top: -1px;
-    height: 246px;
-  }
-  .footer img {
-    width: 10%;
-  }
-}
-@media screen and (max-width: 576px) {
-  body {
-    background-color: antiquewhite;
-  }
-  .titulo {
-    height: 327px;
-  }
-  .santa-monica {
-    display: flex;
-    flex-direction: column;
-    background-color: #b89c6d;
-    margin-top: -39px;
-    height: 298px;
-  }
-  .santa-monica p {
-    font-size: 15px;
-  }
-  .servicios img {
-    width: 100%;
-    padding-top: 0%;
-  }
-  .footer img {
-    width: 10%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .santa-monica {
-    display: flex;
-    flex-direction: column;
-    background-color: #b89c6d;
-    margin-top: -340px;
-    height: 437px;
-  }
-  .footer img {
-    width: 15%;
-  }
-}
 .reservar {
   font-family: "Staatliches", cursive;
   font-size: 200%;
@@ -144,6 +199,11 @@ body {
   background-color: #6d4a4a;
 }
 
+@media screen and (max-width: 576px) {
+  .reservar {
+    height: 300px;
+  }
+}
 .nuestra-ubicacion {
   font-family: "Staatliches", cursive;
   font-size: 200%;
@@ -172,23 +232,6 @@ body {
   background-repeat: none;
 }
 
-@media screen and (max-width: 576px) {
-  iframe {
-    width: 100%;
-  }
-  .nuestra-ubicacion {
-    height: 300px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .nuestra-ubicacion {
-    height: 500px;
-  }
-  iframe {
-    width: 100%;
-    height: 70%;
-  }
-}
 .contactanos {
   font-family: "Staatliches", cursive;
   font-size: 200%;
@@ -231,26 +274,6 @@ body {
   padding: 15px;
 }
 
-@media screen and (max-width: 800px) {
-  .contactanos {
-    height: 300px;
-  }
-  .formcontacto {
-    width: 75%;
-    margin-left: 12%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .formcontacto {
-    width: 80%;
-    margin-left: 10%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .reservar {
-    height: 300px;
-  }
-}
 body {
   background-color: #e2bf81;
   max-width: 100%;
@@ -303,63 +326,6 @@ body {
   font-size: 19px;
 }
 
-@media screen and (max-width: 1024px) {
-  .titulo {
-    height: 400px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .titulo {
-    height: 350px;
-  }
-  .santa-monica {
-    display: flex;
-    flex-direction: column;
-    background-color: #b89c6d;
-    margin-top: -1px;
-    height: 246px;
-  }
-  .footer img {
-    width: 10%;
-  }
-}
-@media screen and (max-width: 576px) {
-  body {
-    background-color: antiquewhite;
-  }
-  .titulo {
-    height: 327px;
-  }
-  .santamonica {
-    display: flex;
-    flex-direction: column;
-    background-color: #b89c6d;
-    margin-top: -39px;
-    height: 298px;
-  }
-  .santamonica p {
-    font-size: 15px;
-  }
-  .servicios img {
-    width: 100%;
-    padding-top: 0%;
-  }
-  .footer img {
-    width: 10%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .santamonica {
-    display: flex;
-    flex-direction: column;
-    background-color: #b89c6d;
-    margin-top: -340px;
-    height: 437px;
-  }
-  .footer img {
-    width: 15%;
-  }
-}
 .footer {
   background-color: #be7b06;
   height: 150px;

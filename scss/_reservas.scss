@@ -24,3 +24,9 @@
 .btn:hover {
     background-color: #6d4a4a;
 }
+
+@media screen and ( max-width: 576px) {
+    .reservar {
+        height: 300px;
+    }
+}

@@ -20,21 +20,4 @@
     }
 }
 
-@media screen and ( max-width: 576px) {
-    iframe  {
-       width: 100%;
-    }
-    .nuestra-ubicacion {
-        height: 300px;
-    }
-}
 
-@media screen and ( max-width: 320px) {
-    .nuestra-ubicacion {
-        height: 500px;
-    }
-    iframe  {
-        width: 100%;
-        height: 70%;
-     }
-}
