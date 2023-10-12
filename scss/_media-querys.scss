@@ -130,8 +130,22 @@
 
 @media screen and ( max-width: 576px) {
     .form-contacto {
-        width: 100%;
+        width: 300px;
         margin-left: 10%;
-    
     }
 }
+ @media screen and ( max-width: 320px) {
+
+   .btn {
+        margin-left: -22px;
+        }
+}
+
+/*Reservar*/
+
+@media screen and ( max-width: 576px) {
+    .reservar {
+        height: 300px;
+    }
+}
+

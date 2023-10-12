@@ -107,8 +107,19 @@
 }
 @media screen and (max-width: 576px) {
   .form-contacto {
-    width: 100%;
+    width: 300px;
     margin-left: 10%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .btn {
+    margin-left: -22px;
+  }
+}
+/*Reservar*/
+@media screen and (max-width: 576px) {
+  .reservar {
+    height: 300px;
   }
 }
 body {
@@ -152,6 +163,9 @@ body {
 .servicios p {
   padding-top: 30px;
   font-weight: bolder;
+}
+.servicios img {
+  opacity: 0.9;
 }
 
 .reservar {
@@ -199,11 +213,6 @@ body {
   background-color: #6d4a4a;
 }
 
-@media screen and (max-width: 576px) {
-  .reservar {
-    height: 300px;
-  }
-}
 .nuestra-ubicacion {
   font-family: "Staatliches", cursive;
   font-size: 200%;
