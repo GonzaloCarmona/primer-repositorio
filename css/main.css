@@ -135,6 +135,7 @@ body {
   text-shadow: 0px 0px 10px black;
   background-repeat: none;
   height: 65vh;
+  width: 100%;
   background-image: url(../assets/portadaestirada.jpg);
   background-repeat: none;
 }
@@ -176,6 +177,7 @@ body {
   text-shadow: 0px 0px 10px black;
   background-repeat: none;
   height: 65vh;
+  width: 100%;
   background-image: url(../assets/images.jpg);
 }
 .reservar h1 {
@@ -221,6 +223,7 @@ body {
   text-shadow: 0px 0px 10px black;
   background-repeat: none;
   height: 65vh;
+  width: 100%;
   background-image: url(../assets/visita.jpg);
   background-repeat: none;
 }
@@ -249,6 +252,7 @@ body {
   text-shadow: 0px 0px 10px black;
   background-repeat: none;
   height: 65vh;
+  width: 100%;
   background-image: url(../assets/reservar.jpg);
   background-repeat: none;
 }
@@ -296,6 +300,7 @@ body {
   text-shadow: 0px 0px 10px black;
   background-repeat: none;
   height: 65vh;
+  width: 100%;
   background-image: url(../assets/Portada.jpg);
   background-repeat: none;
 }
