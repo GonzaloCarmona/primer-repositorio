@@ -6,7 +6,7 @@ body{
 .titulo {
     
         @include estilo-titulo;
-        background-image: url(../assets/portadaestirada.jpg);
+        background-image: url(../assets/portadaestirada.webp);
         background-repeat: none;
         &-vivasierra { 
             text-align: center;
